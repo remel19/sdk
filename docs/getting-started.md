@@ -45,7 +45,7 @@ yarn add node-sass-chokidar redux
 ### Add sass-building scripts to package.json
 
 This is a modification of the recommendations by the create-react-app authors,
-it be reviewed in more depth [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc).
+it can be reviewed in more depth [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc).
 
 
 After `"scripts": {`:
@@ -63,8 +63,8 @@ mv src/App.css src/App.scss
 
 ## Installing SDK
 
-Only *one* of the following techniques are needed for installing 
-the SDK. 
+Only *one* of the following techniques are needed for installing
+the SDK.
 
 ### From npm
 
@@ -171,7 +171,7 @@ After the last `</p>` tag add the following to add an SDK map:
 
 ```javascript
 <SdkMap store={store} />
-``` 
+```
 
 ### Fire up the browser
 

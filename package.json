@@ -20,7 +20,7 @@
     "watch:js": "babel --watch ./src --out-dir ./dist",
     "dist:copy": "node tasks/dist-copy.js && node tasks/create-package-json.js",
     "dist": "npm run build:js && npm run dist:copy",
-    "jsdoc": "jsdoc -r ./src -c docs/conf.json -R docs/getting-started.md -d docs/out"
+    "jsdoc": "jsdoc -r ./src -R docs/getting-started.md -d docs/out -t docs/sdkTemplate"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

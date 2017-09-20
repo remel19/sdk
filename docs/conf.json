@@ -1,9 +1,0 @@
-{
-  "opts": {
-    "templates": {
-      "default": {
-        "layoutFile": ".sdkTemplate/layout.tmpl"
-      }
-    }
-  }
-}
